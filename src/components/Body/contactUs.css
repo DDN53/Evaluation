@@ -86,7 +86,8 @@
 #email {
   width: 481px;
   height: 46px;
-  background-color: #3c3c3c;
+  background-color: #3c3c3c !important;
+  border: none;
   border: none;
   border-radius: 7px;
 }
@@ -201,4 +202,32 @@
 
   margin: auto;
   top: 260%;
+}
+
+@media (max-width: 768px) {
+  .google-map {
+    right: -632px;
+    top: 2023px;
+    width: 646px;
+  }
+  .contact {
+    height: 42.5rem;
+    width: 185%;
+  }
+  .contact-us {
+    margin-left: -116px;
+    margin-top: -754px;
+  }
+  .contact-form {
+    margin-top: 70px;
+    margin-bottom: 9%;
+  }
+}
+@media (max-width: 425px) {
+  .contact {
+    width: 333%;
+  }
+  .google-map {
+    top: 371%;
+  }
 }

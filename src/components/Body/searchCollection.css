@@ -124,3 +124,20 @@
   border-radius: 4px;
   font-size: medium;
 }
+@media (max-width: 768px) {
+  .searchCollection {
+    width: 186%;
+    height: 147vh;
+  }
+  .wrapper {
+    width: 89.5%;
+  }
+}
+@media (max-width: 425px) {
+  .searchCollection {
+    width: 331%;
+  }
+  .show-container {
+    gap: -3px;
+  }
+}

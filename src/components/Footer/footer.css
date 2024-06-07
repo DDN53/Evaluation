@@ -77,3 +77,16 @@
   width: 29.08px;
   height: 23.62px;
 }
+@media (max-width: 768px) {
+  .footer {
+    width: 186%;
+  }
+  .footer-info-social {
+    margin-left: 845px;
+  }
+}
+@media (max-width: 425px) {
+  .footer {
+    width: 352%;
+  }
+}

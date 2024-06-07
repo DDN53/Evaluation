@@ -30,3 +30,15 @@
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
 }
+@media (max-width: 768px) {
+  .siteIntro {
+    width: 185%;
+  }
+}
+
+@media (max-width: 425px) {
+  .siteIntro {
+    width: 333%;
+    height: 336px;
+  }
+}

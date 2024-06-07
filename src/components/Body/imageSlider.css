@@ -38,3 +38,26 @@
 .img-slider-dot-btn.active {
   background-color: #ffffff;
 }
+@media (max-width: 768px) {
+  .img-slider {
+    width: 185%;
+  }
+  .img-slider-img {
+    height: 139vh;
+  }
+  .img-slider-dot-btn {
+    margin-left: -52px;
+  }
+}
+@media (max-width: 425px) {
+  .img-slider-img {
+    width: 400%;
+  }
+}
+@media (max-width: 425px) {
+  .img-slider {
+    display: block;
+    position: relative;
+    width: 100%;
+  }
+}
