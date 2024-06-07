@@ -1,0 +1,79 @@
+.footer {
+  position: absolute;
+  display: flex;
+  z-index: 5;
+  width: 100%;
+  height: 260.71px;
+  background-color: #1d1d1d;
+  font-family: "Open Sans", sans-serif;
+}
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 40px;
+  color: #ffffff;
+  font-size: 18.29px;
+}
+.block {
+  display: block;
+}
+.footer-info-social {
+  display: flex;
+  margin-left: 878px;
+  margin-top: 56px;
+  color: #ffffff;
+  font-size: 18.29px;
+}
+.copyright {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  color: #b7b7b7;
+  font-size: 14px;
+  top: 20px;
+  left: -2px;
+}
+.credits {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  color: #b7b7b7;
+  font-size: 14px;
+  top: 20px;
+  left: 955px;
+  white-space: nowrap;
+}
+.credits a {
+  color: #b7b7b7;
+}
+.footer-info-copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 170px;
+  left: 100px;
+  width: calc(100% - 200px);
+  border-top: 1px solid #b7b7b7;
+}
+.bold-text {
+  font-weight: bold;
+}
+.twitter-icon {
+  color: #ffff;
+  margin-left: 15px;
+  margin-top: 5px;
+  width: 29.08px;
+  height: 23.62px;
+}
+
+.youtube-icon {
+  color: #ffff;
+  margin-left: 18px;
+  margin-top: 5px;
+  width: 29.08px;
+  height: 23.62px;
+}

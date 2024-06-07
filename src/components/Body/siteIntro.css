@@ -1,0 +1,32 @@
+.siteIntro {
+  width: 100%;
+  height: 307px;
+  background-color: #0f0f0f;
+}
+.title {
+  font-size: 54.86px;
+  left: 90px;
+  margin-left: 100px;
+  color: white;
+  margin-top: 50px;
+  font-family: "DIN Alternate", sans-serif;
+}
+.intro-container {
+  margin-top: 20px;
+}
+.intro {
+  flex-basis: 200px;
+  font-size: 20px;
+  margin-left: 100px;
+  display: block;
+  color: #ffffffa6;
+}
+.titleIntro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+  height: 307px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}

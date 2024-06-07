@@ -1,0 +1,40 @@
+.img-slider {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .img-slider {
+    display: block;
+    position: relative;
+    width: 100%;
+  }
+}
+
+.img-slider-img {
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-slider-btn {
+  position: absolute;
+  left: 720px;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  top: 94%;
+}
+
+.img-slider-dot-btn {
+  width: 1rem;
+  height: 0.95rem;
+  border-radius: 9999px;
+  background-color: #cbd5e0;
+  border: none;
+  cursor: pointer;
+}
+
+.img-slider-dot-btn.active {
+  background-color: #ffffff;
+}
